@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compunded interest Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h3>NPV Calculator</h3>
+        <input type="number" id="principle" placeholder="Enter principle amount" required><br>
+        <input type="number" id="cashflow" placeholder="Enter cashflow" required><br>
+        <input type="number" id="year" placeholder="Enter number of year" required><br>
+        <input type="number" id="discount_rate" placeholder="Enter the discount rate" required><br>
+        <button>Calculate</button>
+        <div class="output">
+            <p>Total NPV: <span id="net_NPV"></span></p>
+            <p>NPV Difference: <span id="NPV_differ"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

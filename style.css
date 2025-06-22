@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+}
+.main-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    width: 50%;
+    height: 60%;
+    border-radius: 10PX;
+    padding-top: 10PX;
+}
+input {
+    margin: 10px;
+    height: 30px;
+    width: 80%;
+    border: 1px solid black;
+    border-radius: 3PX;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+button {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background: #0067b8;
+    border: 0;
+    margin: 15px auto;
+}
+button:hover {
+    cursor: pointer;
+}
+.output {
+    position: relative;
+    left: 10%;
+    text-align: left;
+}
